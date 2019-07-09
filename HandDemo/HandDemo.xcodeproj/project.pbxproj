@@ -13,12 +13,11 @@
 		25A8BCCD22D4757A00F1B009 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25A8BCCC22D4757A00F1B009 /* Assets.xcassets */; };
 		25A8BCD022D4757A00F1B009 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25A8BCCE22D4757A00F1B009 /* LaunchScreen.storyboard */; };
 		25A8BCD322D4757A00F1B009 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A8BCD222D4757A00F1B009 /* main.m */; };
-		25A8BCDF22D4758200F1B009 /* HandFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A8BCDA22D4758200F1B009 /* HandFinder.m */; };
-		25A8BCE022D4758200F1B009 /* hands_cnn.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 25A8BCDB22D4758200F1B009 /* hands_cnn.mlmodel */; };
-		25A8BCE122D4758200F1B009 /* HandFinderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A8BCDC22D4758200F1B009 /* HandFinderModel.m */; };
+		81C876AC89EB10E6AC3ED382 /* libPods-HandDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13F9CA8156DF38FEFE3A608C /* libPods-HandDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		13F9CA8156DF38FEFE3A608C /* libPods-HandDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HandDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25A8BCC022D4757A00F1B009 /* HandDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HandDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25A8BCC322D4757A00F1B009 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		25A8BCC422D4757A00F1B009 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,11 +28,8 @@
 		25A8BCCF22D4757A00F1B009 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25A8BCD122D4757A00F1B009 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25A8BCD222D4757A00F1B009 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		25A8BCDA22D4758200F1B009 /* HandFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HandFinder.m; sourceTree = "<group>"; };
-		25A8BCDB22D4758200F1B009 /* hands_cnn.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = hands_cnn.mlmodel; sourceTree = "<group>"; };
-		25A8BCDC22D4758200F1B009 /* HandFinderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HandFinderModel.m; sourceTree = "<group>"; };
-		25A8BCDD22D4758200F1B009 /* HandFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HandFinder.h; sourceTree = "<group>"; };
-		25A8BCDE22D4758200F1B009 /* HandFinderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HandFinderModel.h; sourceTree = "<group>"; };
+		DE48B5CEE5B7B541A1CFFF72 /* Pods-HandDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HandDemo.release.xcconfig"; path = "Target Support Files/Pods-HandDemo/Pods-HandDemo.release.xcconfig"; sourceTree = "<group>"; };
+		EA99D4BB2F289D8D0D56AED6 /* Pods-HandDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HandDemo.debug.xcconfig"; path = "Target Support Files/Pods-HandDemo/Pods-HandDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81C876AC89EB10E6AC3ED382 /* libPods-HandDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +49,8 @@
 			children = (
 				25A8BCC222D4757A00F1B009 /* HandDemo */,
 				25A8BCC122D4757A00F1B009 /* Products */,
+				3A0D897B0D203E1D2A1A4698 /* Pods */,
+				2DDB5F5544CE2E7AF1D3960D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,7 +65,6 @@
 		25A8BCC222D4757A00F1B009 /* HandDemo */ = {
 			isa = PBXGroup;
 			children = (
-				25A8BCD922D4758200F1B009 /* FindHands */,
 				25A8BCC322D4757A00F1B009 /* AppDelegate.h */,
 				25A8BCC422D4757A00F1B009 /* AppDelegate.m */,
 				25A8BCC622D4757A00F1B009 /* ViewController.h */,
@@ -80,16 +78,22 @@
 			path = HandDemo;
 			sourceTree = "<group>";
 		};
-		25A8BCD922D4758200F1B009 /* FindHands */ = {
+		2DDB5F5544CE2E7AF1D3960D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				25A8BCDD22D4758200F1B009 /* HandFinder.h */,
-				25A8BCDA22D4758200F1B009 /* HandFinder.m */,
-				25A8BCDB22D4758200F1B009 /* hands_cnn.mlmodel */,
-				25A8BCDE22D4758200F1B009 /* HandFinderModel.h */,
-				25A8BCDC22D4758200F1B009 /* HandFinderModel.m */,
+				13F9CA8156DF38FEFE3A608C /* libPods-HandDemo.a */,
 			);
-			path = FindHands;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A0D897B0D203E1D2A1A4698 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA99D4BB2F289D8D0D56AED6 /* Pods-HandDemo.debug.xcconfig */,
+				DE48B5CEE5B7B541A1CFFF72 /* Pods-HandDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +103,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 25A8BCD622D4757A00F1B009 /* Build configuration list for PBXNativeTarget "HandDemo" */;
 			buildPhases = (
+				1A8801968F777BC30AA01F71 /* [CP] Check Pods Manifest.lock */,
 				25A8BCBC22D4757A00F1B009 /* Sources */,
 				25A8BCBD22D4757A00F1B009 /* Frameworks */,
 				25A8BCBE22D4757A00F1B009 /* Resources */,
@@ -157,15 +162,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A8801968F777BC30AA01F71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HandDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		25A8BCBC22D4757A00F1B009 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25A8BCE122D4758200F1B009 /* HandFinderModel.m in Sources */,
-				25A8BCDF22D4758200F1B009 /* HandFinder.m in Sources */,
 				25A8BCC822D4757A00F1B009 /* ViewController.m in Sources */,
-				25A8BCE022D4758200F1B009 /* hands_cnn.mlmodel in Sources */,
 				25A8BCD322D4757A00F1B009 /* main.m in Sources */,
 				25A8BCC522D4757A00F1B009 /* AppDelegate.m in Sources */,
 			);
@@ -307,6 +334,7 @@
 		};
 		25A8BCD722D4757A00F1B009 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA99D4BB2F289D8D0D56AED6 /* Pods-HandDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -325,6 +353,7 @@
 		};
 		25A8BCD822D4757A00F1B009 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE48B5CEE5B7B541A1CFFF72 /* Pods-HandDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
