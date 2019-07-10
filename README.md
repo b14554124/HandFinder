@@ -8,7 +8,7 @@ Vision +  ML  = 🤚:D
 好歹是 pod init 就能用. 用着也简单. 单单就一行代码,马上就好用,用完给个Star :D .
 
 #安装
-'pod 'HandFinder'
+pod 'HandFinder'
 
 #使用 
 #import "HandFinder/HandFinder.h"
@@ -41,7 +41,7 @@ A face meng, is really guilty very much.
 Well, at least it works. It's easy to use. Just one line of code.
 
 # installation
-'pod' HandFinder '
+pod 'HandFinder'
 
 # use
 H # import "HandFinder/HandFinder."
