@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/b14554124/HandFinder.git", :tag => "1.0.0" }
 
-  s.source_files  = "HandFinder/HandFinder/*"
+  s.source_files  = "HandFinder/HandFinder/*/**"
 
   s.requires_arc = true
 
