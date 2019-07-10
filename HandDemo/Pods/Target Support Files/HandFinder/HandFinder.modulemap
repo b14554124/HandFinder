@@ -1,0 +1,6 @@
+framework module HandFinder {
+  umbrella header "HandFinder-umbrella.h"
+
+  export *
+  module * { export * }
+}

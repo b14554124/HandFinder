@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "HandFinder.h"
+#import "HandFinder/HandFinder.h"
 
 @interface ViewController ()
 
@@ -19,15 +19,15 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    
+    ///Dont forget ------  Privacy - Camera Usage Description ----
     [[HandFinder shareInstance] startSessionWithView:self.view ValueChange:^(HandFinderModel * _Nonnull model) {
         
     }];
     
-    
-    [[HandFinder shareInstance] startSessionWithSourceIMG:[UIImage imageNamed:@"hand"] ValueChange:^(HandFinderModel * _Nonnull model) {
-        
-    }];
+    ///Used Image  :D
+//    [[HandFinder shareInstance] startSessionWithSourceIMG:[UIImage imageNamed:@"hand"] ValueChange:^(HandFinderModel * _Nonnull model) {
+//
+//    }];
     
 }
 
