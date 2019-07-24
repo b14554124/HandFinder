@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
 
   s.name         = "HandFinder"
-  s.version      = "1.0.0"
+  s.version      = "1.0.2"
   s.summary      = "Vision +  ML  = 🤚:D , One Code One Result."
 
   s.homepage     = "https://github.com/b14554124/HandFinder"
 
-  s.license= { :type => "MIT", :file => "LICENSE" }
+  s.license      = "MIT"
 
   s.author             = { "b14554124" => "505763451@qq.com" }
 
