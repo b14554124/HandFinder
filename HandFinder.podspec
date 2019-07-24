@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "HandFinder"
-  s.version      = "1.0.2"
+  s.version      = "1.0.0"
   s.summary      = "Vision +  ML  = 🤚:D , One Code One Result."
 
   s.homepage     = "https://github.com/b14554124/HandFinder"
