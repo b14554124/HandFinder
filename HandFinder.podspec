@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "11.0"
 
 
-  s.source       = { :git => "https://github.com/b14554124/HandFinder.git", :tag => "v1.0.0" }
+  s.source       = { :git => "https://github.com/b14554124/HandFinder.git", :tag => "1.0.2" }
 
   s.source_files  = "HandFinder", "HandFinder/**/*.{h,m,mlmodel}"
 
