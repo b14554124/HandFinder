@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "HandFinder"
-  s.version      = "1.0.1"
+  s.version      = "1.0.0"
   s.summary      = "Vision +  ML  = 🤚:D , One Code One Result."
 
   s.homepage     = "https://github.com/b14554124/HandFinder"
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "11.0"
 
 
-  s.source       = { :git => "https://github.com/b14554124/HandFinder.git", :tag => "1.0.2" }
+  s.source       = { :git => "https://github.com/b14554124/HandFinder.git", :tag => "1.0.0" }
 
   s.source_files  = "HandFinder", "HandFinder/**/*.{h,m,mlmodel}"
 
