@@ -7,9 +7,6 @@ Vision +  ML  = 🤚:D
 一脸懵逼, 实在是心虚的很.
 好歹是 pod init 就能用. 用着也简单. 单单就一行代码,马上就好用,用完给个Star :D .
 
-#安装
-pod 'HandFinder'
-
 #使用 
 #import "HandFinder/HandFinder.h"
 
@@ -39,9 +36,6 @@ Can through the camera, and image recognition 🤚. Around 🤚, positive and ne
 The first pass, is really rub force very much.
 A face meng, is really guilty very much.
 Well, at least it works. It's easy to use. Just one line of code.
-
-# installation
-pod 'HandFinder'
 
 # use
 H # import "HandFinder/HandFinder."
